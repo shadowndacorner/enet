@@ -1,4 +1,5 @@
 solution "enet"
+	location "build"
 	configurations { "Debug", "Release" }
 	platforms { "x32", "x64" }
 
