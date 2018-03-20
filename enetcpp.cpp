@@ -7,6 +7,9 @@ extern "C"
 	#include "packet.c"
 	#include "peer.c"
 	#include "protocol.c"
-	#include "unix.c"
+#ifdef _WIN32
 	#include "win32.c"
+#else
+	#include "unix.c"
+#endif
 }
