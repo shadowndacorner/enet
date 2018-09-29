@@ -91,4 +91,6 @@ add_library(enet STATIC
 
 if (MINGW)
     target_link_libraries(enet winmm ws2_32)
+else(MSVC)
+    target_link_libraries(enet winmm ws2_32)
 endif()
