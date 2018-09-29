@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 3.2)
 
-project(enet)
+project(enet VERSION 0.1)
 
 # The "configure" step.
 include(CheckFunctionExists)
